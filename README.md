@@ -1,5 +1,7 @@
 # insurance_quote
 
+This program quotes two kinds of prices based on the age of the car 
+
 ## User story
 
 ``` As an insurance company
@@ -20,3 +22,12 @@ customer
 cars
 insurance_company
 quotes
+
+## How to use
+- open irb
+- require files in the order ``` require'./quote.rb' ``` and ``` require'./customer.rb' ```
+- create user as shown in the screenshot 
+- Add user details ```user.update_user ```
+- fill in the details
+- once finished type ```user.quote_price ```
+![choose options](https://github.com/becc-mu/insurance_quote/blob/master/Screen%20Shot%202019-01-07%20at%2017.14.01.png)
