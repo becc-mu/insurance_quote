@@ -30,4 +30,4 @@ quotes
 - Add user details ```user.update_user ```
 - fill in the details
 - once finished type ```user.quote_price ```
-![choose options](https://github.com/becc-mu/insurance_quote/blob/master/Screen%20Shot%202019-01-07%20at%2017.14.01.png)
+![choose options](https://github.com/becc-mu/insurance_quote/blob/master/Screen%20Shot%202019-01-07%20at%2017.44.53.png)
