@@ -9,7 +9,7 @@ class Customer
     @age
     @address
     @price = 0
-    @car_age = 0
+    @full_cover = 0
   end
 
   def self.create
@@ -24,10 +24,13 @@ class Customer
   @age = gets.chomp
   puts "how old is your car"
   @car_age = gets.chomp
+  puts "type 1 if you want full_cover or type 2 for normal"
+  @full_cover = gets.chomp
+
   end
 
   def quote_price
-    @quote.add_quote(@car_age.to_i)
+    @quote.add_quote(@full_cover.to_i)
   end
 
 end
